@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cabecera{
+    background: #01a9db;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 0px 30px #a4a4a4;
+    border-bottom-style: solid;
+    border-bottom-color: #585858;
+    border-bottom-width: 5px;
+}
+
+#encabezado{
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    border: 0px solid #000000;
+}
+
+#logo{
+    width: 30%;
+    height: auto; 
+    overflow: hidden;
+    float: left;
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 55px;
+}
+
+#menu{
+    width: 60%;
+    height: 40px;
+    float: right;
+    border: 0px solid;
+    margin-top: 30px;
+}
+
+#menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#menu ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;  
+    font-size: 20px;
+}
+
+#menu ul li a:hover{
+    background: #585858;
+    color: #000000;
+    border-radius: 2px 2px 0px 0px;
+}
+
+
+/* contenido principal */
+
+#principal{
+    width: 70%;
+    height: auto; 
+    overflow: hidden;
+    border: 1px solid;
+    margin-top: 10px; 
+    margin-left: 100px;
+}
+
+#publicaciones{
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid red;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.post{
+    width: 90%;
+    height: auto; overflow: hidden;
+    padding: 7px 7px;
+    background: #fdfdfd;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #0489b1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #cccccc; 
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+
+#publicaciones .imagen-post{
+    width: 300px;
+    height: 250px;
+    float: left;
+    margin: 7px 7px 7px 7px;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+#publicaciones .datos-publicaciones{
+    font-family: 'calibri light';
+    color: #0489b1;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
